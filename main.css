@@ -1,0 +1,258 @@
+.attribution { font-size: 1.5vh; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #e0e8ff;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+@media screen and (min-width: 601px) {
+  body {
+    background-image: url("./images/pattern-background-desktop.svg");
+
+  }
+
+  #mainImage{
+    width: 50%;
+    height: 100%;
+  }
+
+  #hero{
+    width: 63.3%;
+    height: 80%;
+  }
+
+  #text{
+    width: 31.5vw;
+    height: 500px;
+  }
+
+  h1 {
+    font-size: 2vw;
+    padding-top: 7%;
+  }
+
+  h2 {
+    padding-top: 5%;
+    font-size: 1vw;
+    padding-left: 15%;
+    text-align: left;
+  }
+  p{
+    color: grey;
+    font-size: 1.3vw;
+  }
+
+  #plan{
+    width: 80%;
+    height: 20%;
+    border-radius: 20px;
+  }
+
+  #music {
+    float:left;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 4vw;
+    height: 4vw;
+  }
+
+  #price {
+    transform: translate(0, -50%); 
+    text-align: left;
+    font-size: 1.2vw;
+  }
+
+  .button{
+    width: 10%;
+    height: 100px;
+    padding: 3% 24% 3% 24%;
+    font-size: 1vw;
+  }
+
+  #change {
+    transform: translate(5%, -100%);
+  }
+
+  #cancel {
+    font-size: 1vw;
+    
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-image: url("./images/pattern-background-mobile.svg");
+  }
+
+  #mainImage{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+  }
+
+  #hero {
+    width: 80%;
+    height: 50%;
+
+  }
+   #text {
+    width: 80%;
+    height: 300px;
+  }
+
+  h1 {
+    font-size: 4vw;
+    padding-top: 12%;
+    padding-bottom: 3%;
+  }
+
+  h2 {
+    text-align: left;
+    transform: translate(50px, -50px);
+    font-size: 2vw;
+  }
+
+  p{
+    color: grey;
+    font-size: 2.5vw;
+    padding-bottom: 4%;
+  }
+
+  #plan {
+    width: 80%;
+    height: 13%;
+    padding-top: 10%;
+    border-radius: 10px;
+  }
+
+  #music {
+    margin-right: 200px;
+    width: 25px;
+    height: 25px;
+    transform: translate(15px, -16px);
+  }
+
+  #price {
+    text-align: left;
+    transform: translate(50px, -58px);
+    font-size: 8px;
+  }
+
+  #change {
+    transform: translate(30px, -12px);
+    font-size: 2vw;
+  }
+
+  .button {
+    width: 80%;
+    height: 10%;
+    font-size: 2vw;
+    padding: 3% 20% 3% 20%;
+  }
+
+  #cancel {
+    font-size: 2vw;
+  }
+}
+
+#mainPara {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#mainImage {
+  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 5%;
+  
+}
+
+#hero {
+  border-radius: 20px 20px 0 0;
+}
+
+#text {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+  border: white;
+  border: white;
+  transform: translate(0, -6%);
+  border-radius: 0 0 20px 20px; 
+}
+
+#plan {
+  background-color: #F8F9FD;
+  min-height: 5vh; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-weight: 900;
+  color: #1E2643;
+}
+
+#move {
+  width: 50%;
+  float: right;
+  text-align: center;
+}
+
+#change {
+  position: absolute;
+  top: 49%;
+  right: 65px;
+  width: 25%;
+  height: 5%;
+  text-align: right;
+  margin-bottom: 30%;
+}
+
+#change:hover {
+  color: #746CE9;
+  text-decoration: none;
+}
+
+.button {
+  background-color: #352AD8;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-weight: 900;
+  border-radius: 10px;
+  border-style: none;
+  box-shadow:  0px 15px 20px rgba(173, 127, 224, 0.493); 
+  text-decoration: none;
+  min-width: 200px;
+}
+
+.button:hover {
+  background-color: #746CE9;
+}
+
+#cancellation {
+  padding-top: 1%;
+  transform: translate(0px, 85px);
+}
+
+#cancel {
+  color: #787E96;
+  text-decoration: none;
+  margin: auto;
+}
+
+#cancel:hover {
+  color: black;
+}
